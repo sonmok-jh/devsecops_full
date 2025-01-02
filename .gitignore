@@ -14,3 +14,14 @@ kind.exe
 *.tmp
 *~
 /web_wargamer
+
+# Ignore token files and directories
+Jenkins/token/
+*.token
+tokens.txt
+
+# Ignore any files that might contain secrets
+**/secrets/
+*secret*
+*token*
+/Wargame
